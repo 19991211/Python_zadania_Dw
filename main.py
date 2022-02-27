@@ -32,3 +32,4 @@ print(2/3 ** f)
 print(math.pow(e, f))
 print(math.pow(2/3,f))
 
+
