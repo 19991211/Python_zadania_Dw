@@ -33,3 +33,8 @@ if ( a > b ) & ( c > d ):
     print('liczba a jest wieksza od liczby b i liczba c jest wieksza od liczby d')
 else:
     print('liczba a jest mniejsza niz liczba b lub liczba c jest mniejsza od liczby d')
+
+#pętla for licznik i sekwencja:
+    #instrukcja lub blok instrukcji
+ #else:
+        #instrukcje po zakkonczeniu pętli
