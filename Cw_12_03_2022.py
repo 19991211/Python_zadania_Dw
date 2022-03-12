@@ -25,11 +25,18 @@
 
 #przykład 2
 #wersja z pętlą
-liczby = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-lista = []
-for i in liczby:
-    if i % 2 == 0:
-        lista.append(i)
-print("Liczby parzyste uzyskane z wykorzystaniem pętli")
-print(lista)
-print()
+# liczby = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# lista = []
+# for i in liczby:
+#     if i % 2 == 0:
+#         lista.append(i)
+# print("Liczby parzyste uzyskane z wykorzystaniem pętli")
+# print(lista)
+# print()
+#zad 1
+a =[x--1 for x in range(10)]
+print(a)
+b = [4**i for i in range(7)]
+print(b)
+c = [x for x in a if x // 2]
+print(c)
